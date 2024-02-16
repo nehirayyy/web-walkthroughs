@@ -1,0 +1,41 @@
+#articleContainer {
+    max-width: 800px;
+    margin:auto;
+
+   }
+
+   h1{
+    color: rgb(70, 104, 69);
+    font-size: 4rem;
+    
+font-family: "obviously-extended", sans-serif;
+font-weight: 700;
+font-style: italic;
+margin-left: 10%;
+   }
+
+   p{
+    margin-bottom: 1em; 
+    font-family: "obviously", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.3rem;
+    color: coral;
+   }
+
+   a{
+    color: rgba(202, 98, 60, 0.589);
+    font-family: "obviously", sans-serif;
+font-weight: 600;
+font-style: italic;
+letter-spacing: 0.2em;
+text-align: right;
+   }
+   a:hover{
+    text-decoration: line-through;
+   }
+   
+   body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgb(70, 104, 69) 0%, rgba(0,0,0,1) 100%);
+   }

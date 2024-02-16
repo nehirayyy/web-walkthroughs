@@ -1,6 +1,7 @@
 
-       body {
-           line-height: 1;
+       html body {
+        font-size: 18px;
+           line-height: 1.2 em;
            background-image: "img/generatif.png";
            background-color: rgb(255, 0, 0);
        }
@@ -22,13 +23,14 @@
 
        h1{
         font-family:cursive; 
-        font-size: 150px;
+        font-size: 2em;
         line-height: 140%;
         text-align: right;
-
+        margin-bottom: 1rem;
         color: rgb(255, 255, 255);
        }
        
+
        #articleContainer {
         max-width: 800px;
         margin:auto;
@@ -46,6 +48,7 @@
         image-resolution: 0;
        }
        h3{
+        font-size: 1.3em;
         font-stretch: ultra-expanded;
        }
 
