@@ -1,0 +1,78 @@
+#floor {
+    width:auto;
+    height: 800px;
+    background: rgb(32, 185, 255);
+  }
+
+  #bookTop {
+    position: absolute;
+    left: 200px;
+    top: 490px;
+    width:120px;
+    height: 70px;
+    background: rgb(0, 117, 170);
+    border-radius: 5%;
+    transform: skew(200deg);
+    z-index: 2;
+  }
+  
+  #balloon {
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    width: 200px;
+    height: 170px;
+    background: rgba(255, 0, 0, 0.728);
+    border-radius: 50%;
+    z-index: 3;
+  }
+
+  #pamela {
+    position: absolute;
+    left: 280px;
+    top: 500px;
+    width: 150px;
+    height: 100px;
+    background: rgb(255, 217, 0);
+    border-radius: 46%;
+    transform: rotate(-22deg);
+    z-index: 4;
+    box-shadow: 3px 18px 1px 1px rgba(79, 64, 64, 0.303);
+  }
+
+  #mandarin3 {
+    position: absolute;
+    left: 430px;
+    top: 500px;
+    width: 35px;
+    height: 30px;
+    background: rgb(214, 86, 1);
+    border-radius: 50%;
+    transform: rotate(14deg);
+    box-shadow: 5px 2px 1px 1px rgba(79, 64, 64, 0.303);
+  }
+
+  #mandarin4 {
+    position: absolute;
+    left: 420px;
+    top: 510px;
+    width: 35px;
+    height: 30px;
+    background: rgb(243, 97, 0);
+    border-radius: 50%;
+    transform: rotate(0deg);
+    box-shadow: 5px 7px 1px 1px rgba(79, 64, 64, 0.303);
+  }
+
+  #mandarin1 {
+    position: absolute;
+    left: 190px;
+    top: 500px;
+    width: 35px;
+    height: 30px;
+    background: rgb(243, 97, 0);
+    border-radius: 50%;
+    transform: rotate(0deg);
+    z-index: 3;
+    /* 1 and 2 are for the book and mandarin */
+  }
